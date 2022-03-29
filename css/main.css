@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Share+Tech+Mono&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  max-width: 100;
+  overflow-x: hidden; }
+
+#botonera {
+  background-color: rgba(255, 177, 205, 0.9);
+  position: sticky;
+  top: 0;
+  font-size: 2rem; }
+  #botonera img {
+    width: 200px; }
+  #botonera ul li a {
+    background: linear-gradient(to top, #eb216c, #eb216c);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+    #botonera ul li a:hover {
+      font-weight: 600;
+      color: black;
+      background-size: 100% 4px; }
+
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #5c283b; }
+
+#titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #eb216c; }
+
+#subtitulo {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #eb216c; }
+
+#main p {
+  text-align: justify;
+  font-family: "Share Tech Mono", monospace;
+  margin: 10px auto; }
+
+.btn-episodios {
+  background-color: #5c283b;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  box-sizing: border-box; }
+  .btn-episodios:hover {
+    background: linear-gradient(to top, #5c283b, #c54f7a);
+    color: white; }
+
+#tituloForm {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #d84178; }
+
+#tituloSecundario {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #d84178; }
+
+#tituloFooter {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin-right: 20px; }

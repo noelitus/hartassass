@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Hartas Podcast</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contactoGeneral">
+    <nav class="botonera" id="nav">
+        <a href="index.html">
+            <img src="img/logo.svg" alt="logo de hartas podcast">
+        </a>
+        <ul>
+            <li><a href="nosotras.html">Nosotras</a></li>
+            <li><a href="episodios.html">Episodios</a></li>
+            <li><a href="debate.html">Debate</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html#opinion">Dejanos tu opinión</a></li>
+        </ul>
+    </nav>
+    <header id="header">
+        <h1 class="textTitulo">HARTAS PODCAST</h1>
+        <img src="img/header.jpg" alt="Header de hartas podcast" class="encabezadoImg--fluid">
+    </header>
+    <main>
+        <h2 class="textSubtitulo">CONTACTO</h2>
+        <section>
+            <div class="contactoCajas">
+                <form class="contactoForm" action="envio.php" method="post">
+                    <div class="contactoDatos" id="datos">
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <div>
+                                <label for="nombre">Nombre y Apellido</label>
+                                <input type="text" placeholder="¿Cómo te llamas?" name="nombre" id="nombre">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Dejanos tu email" name="email" id="email">
+                                <label for="contacto">Redes Sociales</label>
+                                <input type="text" placeholder="¿Cuál es tu instagram?" name="contacto" id="contacto">
+                                <label for="telefono">Numero de Contacto</label>
+                                <input type="number" placeholder="Dejanos tu número" name="telefono" id="telefono">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="contactoDebate" id="hablar">
+                        <fieldset>
+                            <legend>¿De qué nos queres hablar?</legend>
+                            <div class="contactoInputs">
+                                <div class="inputDebate">
+                                    <label for="episodios">Episodios</label>
+                                    <input type="checkbox" value="episodios" name="episodios" id="episodios">
+                                </div>
+
+                                <div class="inputDebate">
+                                    <label for="duración">Duración</label>
+                                    <input type="checkbox" value="duración" name="duración" id="duración">
+                                </div>
+                                <div class="inputDebate">
+                                    <label for="temas">Temas Debatidos</label>
+                                    <input type="checkbox" value="temas" name="temas" id="temas">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+            </div>
+            <div class="mensajeContenedor" id="mensaje">
+                <label for="mensaje" class="label">Dejanos tu comentario, mensaje u opinión</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribi acá"></textarea>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Cancelar" class="boton">
+            </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <h3 class="tituloFooter">Seguinos en nuestras redes sociales</h3>
+        <div>
+            <a href="https://open.spotify.com/show/23z7H23BjuShxRC0oEfCPG?si=a3073804bbf64a9b" target="_blank">
+                <img src="img/spotify.png" alt="Seguinos en Spotify" class="imagenFooter">
+            </a>
+            <a href="http://twitter.com/spotify" target="_blank">
+                <img src="img/twitter.png" alt="Seguinos en Twitter">
+            </a>
+            <a href="https://www.instagram.com/hartas.podcast/" target="_blank">
+                <img src="img/Instagram-logo.png" alt="Seguinos en Instagram" class="imagenFooter">
+            </a>
+            <a href="http://facebook.com" target=_blank>
+                <img src="img/facebook.png" alt="Seguinos en Facebook">
+            </a>
+            <a href="mailto:hartaspodcast@gmail.com" target="_blank">
+                <img src="img/logo-email.png" alt="Envianos un email" class="imagenFooter">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

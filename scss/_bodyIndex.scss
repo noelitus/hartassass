@@ -1,0 +1,37 @@
+#subtitulo {
+    font-size: $size4;
+    line-height: 1;
+    font-weight: $font-600;
+    color: $mainColor;
+}
+
+#main p {
+    text-align: justify;
+    font-family: $fontGeneral;
+    margin: 10px auto;
+}
+
+//Configuración del botón
+.btn-episodios {
+    background-color: $titulosColor;
+    color: white;
+    font-size: $size2;
+    font-weight: $font-600;
+    box-sizing: border-box;
+    &:hover {
+        background: linear-gradient(to top, $titulosColor, $gradienteColor);
+        color: white;
+    }
+}
+
+#tituloForm {
+    font-size: $size3;
+    font-weight: $font-500;
+    color: $subtitulosColor;
+}
+
+#tituloSecundario {
+    font-size: $size3;
+    font-weight: $font-500;
+    color: $subtitulosColor;
+}
